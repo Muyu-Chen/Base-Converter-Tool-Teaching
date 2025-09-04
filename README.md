@@ -12,6 +12,15 @@ This is an interactive, bilingual educational application designed to help users
 *   双语界面与注释 (Bilingual interface and comments)。
 *   界面简洁，易于操作 (Simple and user-friendly interface)。
 
+## 展示 (Examples)
+
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/5534f506-86e1-4f39-9632-bbcf3c392363" />
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/3c98ef6f-f004-4437-9ef4-db941b31ad79" />
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/a942c0d4-b868-4450-9083-c3b7deb7a2fb" />
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/dc053dd3-12f7-4ce3-a8d2-410e5a61588b" />
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/db0de3ff-78a0-4ec6-9a58-0a070b26fed6" />
+
+
 ## 🚀 如何开始
 
 请按照以下步骤在本地运行此项目。
