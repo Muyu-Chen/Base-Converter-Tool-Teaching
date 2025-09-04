@@ -53,6 +53,18 @@ npm start
 *   CSS
 *   JavaScript
 
+## 📋 待办事项 (TODO)
+
+以下是计划中的功能改进：
+
+*   **增强双语支持 (Enhanced Bilingual Support)**: 完善界面的双语切换功能，提供更加流畅的中英文用户体验。
+*   **一键复制功能 (One-Click Copy Feature)**: 添加便捷的复制功能，支持将转换结果快速复制到 Word 文档和 Markdown 格式，方便用户在文档中使用。
+
+Future improvements planned:
+
+*   **Enhanced Bilingual Support**: Improve the bilingual interface switching functionality for a smoother Chinese-English user experience.
+*   **One-Click Copy Feature**: Add convenient copy functionality to quickly copy conversion results to Word documents and Markdown format for easy use in documentation.
+
 ## 📄 许可证
 
 本项目采用 Apache 2.0 许可证。
