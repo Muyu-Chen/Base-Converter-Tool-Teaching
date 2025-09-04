@@ -4,13 +4,14 @@
 
 This is an interactive, bilingual educational application designed to help users understand and master the detailed conversion process between different number systems (e.g., binary, decimal, hexadecimal). It is particularly suitable for users who need to understand base conversion and the IEEE 754 floating-point representation.
 
-## ✨ 功能 (Features)
+## 功能 (Features)
 
 *   可视化展示进制转换的过程 (Visualizes the conversion process step-by-step)。
 *   支持常见的进制转换，如二进制、十进制、十六进制 (Supports common base conversions, e.g., binary, decimal, hexadecimal)。
 *   提供 IEEE 754 浮点数表示法的详细解析 (Provides detailed analysis of IEEE 754 floating-point representation)。
 *   双语界面与注释 (Bilingual interface and comments)。
 *   界面简洁，易于操作 (Simple and user-friendly interface)。
+*   提供深色主题，减少眼睛疲劳，避免被亮瞎 (Dark mode is available to reduce eye strain caused by excessive brightness)。
 
 ## 展示 (Examples)
 
@@ -67,4 +68,4 @@ Future improvements planned:
 
 ## 📄 许可证
 
-本项目采用 Apache 2.0 许可证。
+本项目采用 Apache 2.0 许可证。简单来说，就是允许任何人免费使用软件，无论是个人还是商业用途，但分发时必须保留原始版权声明、许可证文本。且软件按照“as-is”提供，开发者对任何违规违法使用不但任何责任。
