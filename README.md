@@ -15,7 +15,9 @@ This is an interactive, bilingual educational application designed to help users
 *   提供深色主题，减少眼睛疲劳，避免被亮瞎 (Dark mode is available to reduce eye strain caused by excessive brightness)。
 
 ## 展示 (Examples)
-
+web in English (support both Chinese & English):  
+<img height="600" alt="web" src="https://github.com/user-attachments/assets/1b67f37d-845f-4ba9-aaa3-b4a461c22288" />
+Electron:  
 <img height="600" alt="image" src="https://github.com/user-attachments/assets/5534f506-86e1-4f39-9632-bbcf3c392363" />
 <img height="600" alt="image" src="https://github.com/user-attachments/assets/3c98ef6f-f004-4437-9ef4-db941b31ad79" />
 <img height="600" alt="image" src="https://github.com/user-attachments/assets/a942c0d4-b868-4450-9083-c3b7deb7a2fb" />
