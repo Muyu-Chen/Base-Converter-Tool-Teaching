@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>进制转换教学工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <h1>进制转换教学工具</h1>
+                <p>一个帮助理解整数、浮点数和不同进制间转换的工具。</p>
+            </div>
+            <div class="theme-switcher">
+                <span>🌙</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+                <span>☀️</span>
+            </div>
+        </header>
+
+        <nav>
+            <button id="show-concepts-btn" class="nav-btn">基本概念</button>
+        </nav>
+
+        <main>
+            <div class="converter-panel">
+                <h2>转换器</h2>
+                <div class="controls">
+                    <div class="form-group">
+                        <label for="conversion-type">转换类型:</label>
+                        <select id="conversion-type">
+                            <option value="integer">整数</option>
+                            <option value="float32">32位浮点数 (IEEE 754)</option>
+                            <option value="float64">64位浮点数 (IEEE 754)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-number">输入数字:</label>
+                        <input type="text" id="input-number" placeholder="例如: 123.456">
+                    </div>
+                    <div class="form-group" id="integer-bases">
+                        <label for="from-base">从:</label>
+                        <select id="from-base">
+                            <option value="10">10 (十进制)</option>
+                            <option value="2">2 (二进制)</option>
+                            <option value="8">8 (八进制)</option>
+                            <option value="16">16 (十六进制)</option>
+                        </select>
+                        <label for="to-base">到:</label>
+                        <select id="to-base">
+                            <option value="2">2 (二进制)</option>
+                            <option value="8">8 (八进制)</option>
+                            <option value="10">10 (十进制)</option>
+                            <option value="16">16 (十六进制)</option>
+                        </select>
+                    </div>
+                    <button id="convert-btn">转换</button>
+                </div>
+            </div>
+
+            <div class="explanation-panel">
+                <h2>转换过程详解</h2>
+                <div id="explanation-result" class="explanation-content">
+                    请选择转换类型并输入数字...
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Basic Concepts -->
+    <div id="concepts-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>基本概念</h2>
+            <div id="concepts-content">
+                <h3>数制（Number System）</h3>
+                <p>数制是一种表示数字的系统，它使用一组固定的符号和规则。最常见的数制是十进制（我们日常使用的），但计算机主要使用二进制。</p>
+                <ul>
+                    <li><strong>二进制 (Base-2):</strong> 只使用 0 和 1。是计算机硬件的基础。</li>
+                    <li><strong>八进制 (Base-8):</strong> 使用 0-7。在早期计算中用于缩短二进制表示。</li>
+                    <li><strong>十进制 (Base-10):</strong> 使用 0-9。我们日常生活中最熟悉的进制。</li>
+                    <li><strong>十六进制 (Base-16):</strong> 使用 0-9 和 A-F (A=10, B=11, ..., F=15)。常用于表示内存地址和颜色代码，因为它可以非常紧凑地表示二进制数。</li>
+                </ul>
+                <h3>快速转换 (二进制 <-> 八/十六进制)</h3>
+                <p>因为 8 和 16 都是 2 的整数次幂 (8 = 2³, 16 = 2⁴)，所以它们之间的转换非常快速。</p>
+                <ul>
+                    <li><strong>二进制到八进制:</strong> 从小数点开始，将二进制数每 <strong>3</strong> 位分为一组，然后将每组转换为对应的八进制数。</li>
+                    <li><strong>二进制到十六进制:</strong> 从小数点开始，将二进制数每 <strong>4</strong> 位分为一组，然后将每组转换为对应的十六进制数。</li>
+                </ul>
+                 <h3>IEEE 754 浮点数</h3>
+                <p>计算机表示小数（如 3.14）的标准方式。一个浮点数由三部分组成：</p>
+                <ul>
+                    <li><strong>符号位 (Sign):</strong> 1位，0表示正数，1表示负数。</li>
+                    <li><strong>指数 (Exponent):</strong> 8位 (32位浮点数) 或 11位 (64位浮点数)，用于表示数的大小范围。它使用一个“偏移量”来表示正负指数。</li>
+                    <li><strong>尾数 (Mantissa/Fraction):</strong> 23位 (32位) 或 52位 (64位)，用于表示数的精度。它存储了二进制科学计数法中的小数部分。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
