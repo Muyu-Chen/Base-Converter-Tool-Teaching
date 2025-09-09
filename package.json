@@ -1,0 +1,36 @@
+{
+  "name": "base-converter",
+  "version": "1.0.0",
+  "description": "A tool to explain number base conversions.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.12",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "build": {
+    "appId": "com.example.baseconverter",
+    "productName": "BaseConverter",
+    "files": [
+      "main.js",
+      "index.html",
+      "renderer.js",
+      "style.css",
+      "preload.js"
+    ],
+    "win": {
+      "target": "zip"
+    },
+    "mac": {
+      "target": "dmg"
+    }
+  }
+}
