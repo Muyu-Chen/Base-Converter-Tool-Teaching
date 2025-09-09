@@ -1,12 +1,12 @@
-# 进制转换教学工具 (Base Converter Tool Teaching)
+# Base Converter Tool Teaching (进制转换教学工具 )
 
-进制转换教学工具是一个交互式的教学应用（web和electron客户端），旨在帮助用户理解和掌握不同数制（如二进制、十进制、十六进制等）之间的详细转换过程。它特别适合需要理解进制转换和 IEEE 754 浮点数表示的学生、教师与其他用户。
+This is an interactive, bilingual educational application ([web client (click me)](https://muyyy.link/baseconvertor/)) designed to help users understand and master the detailed conversion process between different number systems (e.g., binary, decimal, hexadecimal). It is particularly suitable for users who need to understand base conversion and the IEEE 754 floating-point representation.  
 
-This is an interactive, bilingual educational application designed to help users understand and master the detailed conversion process between different number systems (e.g., binary, decimal, hexadecimal). It is particularly suitable for users who need to understand base conversion and the IEEE 754 floating-point representation.
+进制转换教学工具是一个交互式的教学应用（[web(click me)](https://muyyy.link/baseconvertor/)和electron客户端），旨在帮助用户理解和掌握不同数制（如二进制、十进制、十六进制等）之间的详细转换过程。它特别适合需要理解进制转换和 IEEE 754 浮点数表示的学生、教师与其他用户。  
 
 ## 功能 (Features)
 
-*   提供Web端、electron客户端 (Provides both Web and electron client app)。
+*   提供[Web端](https://muyyy.link/baseconvertor/)、electron客户端 (Provides both Web and electron client app)。
 *   可视化展示进制转换的过程 (Visualizes the conversion process step-by-step)。
 *   支持常见的进制转换，如二进制、十进制、十六进制 (Supports common base conversions, e.g., binary, decimal, hexadecimal)。
 *   提供 IEEE 754 浮点数表示法的详细解析 (Provides detailed analysis of IEEE 754 floating-point representation)。
